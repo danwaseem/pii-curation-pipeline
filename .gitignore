@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Pipeline-generated outputs (large files, reproducible via pipeline/main.py)
+data/processed/
+data/lineage/
+data/quality_reports/
+
+# Keep the raw data directory structure but not the generated files
+# (raw files are reproducible via generate_data.py)
+data/raw/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code IDE config (contains machine-specific absolute paths)
+.claude/
+
+# Interview prep — keep private
+INTERVIEW_GUIDE.md
+interview_prep.md
+INTERVIEW_PREP.md
